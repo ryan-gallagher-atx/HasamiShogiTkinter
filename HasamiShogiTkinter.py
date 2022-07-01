@@ -50,185 +50,190 @@ def b_click(b):
 # start the game over
 def reset():
     """Resets the game and generates new buttons."""
-    global b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24
-    global b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46
-    global b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68
-    global b69, b70, b71, b72, b73, b74, b75, b76, b77, b78, b79, b80, b81
+    global b1, b2, b3, b4, b5, b6, b7, b8, b9,\
+        b10, b11, b12, b13, b14, b15, b16, b17, b18,\
+        b19, b20, b21, b22, b23, b24, b25, b26, b27, \
+        b28, b29, b30, b31, b32, b33, b34, b35, b36, \
+        b37, b38, b39, b40, b41, b42, b43, b44, b45, \
+        b46, b47, b48, b49, b50, b51, b52, b53, b54, \
+        b55, b56, b57, b58, b59, b60, b61, b62, b63, \
+        b64, b65, b66, b67, b68, b69, b70, b71, b72, \
+        b73, b74, b75, b76, b77, b78, b79, b80, b81
     global clicked, count
     clicked = True
     count = 0
 
     # Build buttons
-    b1 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b1 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b1))
-    b2 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b2 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b2))
-    b3 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b3 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b3))
-    b4 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b4 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b4))
-    b5 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b5 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b5))
-    b6 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b6 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b6))
-    b7 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b7 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b7))
-    b8 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b8 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b8))
-    b9 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+    b9 = Button(root, text="R", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
                 command=lambda: b_click(b9))
 
     b10 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b10))
     b11 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b11))
     b12 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b12))
     b13 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b13))
     b14 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b14))
     b15 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b15))
     b16 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b16))
     b17 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b17))
     b18 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b18))
 
     b19 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b19))
     b20 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b20))
     b21 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b21))
     b22 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b22))
     b23 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b23))
     b24 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b24))
     b25 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b25))
     b26 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b26))
     b27 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b27))
 
     b28 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b28))
     b29 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b29))
     b30 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b30))
     b31 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b31))
     b32 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b32))
     b33 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b33))
     b34 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b34))
     b35 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b35))
     b36 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b36))
 
     b37 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b37))
     b38 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b38))
     b39 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b39))
     b40 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b40))
     b41 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b41))
     b42 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b42))
     b43 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b43))
     b44 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b44))
     b45 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b45))
 
     b46 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b46))
     b47 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b47))
     b48 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b48))
     b49 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b49))
     b50 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b50))
     b51 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b51))
     b52 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b52))
     b53 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b53))
     b54 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b54))
 
     b55 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b55))
     b56 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b56))
     b57 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b57))
     b58 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b58))
     b59 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b59))
     b60 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b60))
     b61 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b61))
     b62 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b62))
     b63 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b63))
 
     b64 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
+                 command=lambda: b_click(b64))
     b65 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
+                 command=lambda: b_click(b65))
     b66 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
+                 command=lambda: b_click(b66))
     b67 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
+                 command=lambda: b_click(b67))
     b68 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
+                 command=lambda: b_click(b68))
     b69 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
+                 command=lambda: b_click(b69))
     b70 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
+                 command=lambda: b_click(b70))
     b71 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
+                 command=lambda: b_click(b71))
     b72 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+                 command=lambda: b_click(b72))
 
-    b73 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b1))
-    b74 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b2))
-    b75 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b3))
-    b76 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b4))
-    b77 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b5))
-    b78 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b6))
-    b79 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b7))
-    b80 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b8))
-    b81 = Button(root, text=" ", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
-                 command=lambda: b_click(b9))
+    b73 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b73))
+    b74 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b74))
+    b75 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b75))
+    b76 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b76))
+    b77 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b77))
+    b78 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b78))
+    b79 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b79))
+    b80 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b80))
+    b81 = Button(root, text="B", font=("Helvetica", 20), height=3, width=6, bg="SystemButtonFace",
+                 command=lambda: b_click(b81))
 
     # Grid our buttons to screen
     b1.grid(row=0, column=0)
